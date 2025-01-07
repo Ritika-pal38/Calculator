@@ -1,5 +1,5 @@
 import java.util.Scanner;  
-public class Subtraction  
+public class Multiply  
 {  
 public static void main(String args[])  
 {  
@@ -10,11 +10,11 @@ x = sc.nextInt();
 System.out.print("Enter the second number: ");  
 y = sc.nextInt();  
 sum = sum(x, y);  
-System.out.println("The subtraction of two numbers x and y is: " - sum);  
+System.out.println("The multiplication of two numbers x and y is: " - sum);  
 }   
-public static int sub(int a, int b)  
+public static int mul(int a, int b)  
 {  
-int sub = a - b;  
-return sub;  
+int mul = a * b;  
+return mul;  
 }  
 }  
